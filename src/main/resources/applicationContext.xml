@@ -13,12 +13,14 @@
           class="org.liza.spring.ClassicalMusic">
     </bean>
     <bean id="musicPlayer"
-          class="org.liza.spring.MusicPlayer">
+          class="org.liza.spring.MusicPlayer"
+          scope="prototype">
+
         <property name="music" ref="musicBean"/>
         <!--        <property name="name" value="Some name"/>-->
         <!--        <property name="volume" value="50"/>-->
         <property name="name" value="${musicPlayer.name}"/>
-         <property name="volume" value="${musicPlayer.voluem}"/>
-            </bean>
+        <property name="volume" value="${musicPlayer.voluem}"/>
+    </bean>
 
-        </beans>
+</beans>
