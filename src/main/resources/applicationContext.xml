@@ -11,19 +11,19 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
     <bean id="musicBean"
           class="org.liza.spring.ClassicalMusic"
-    init-method="doMyInit"
-    destroy-method="doMyDestroy"
-    >
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
     </bean>
-<!--    <bean id="musicPlayer"-->
-<!--          class="org.liza.spring.MusicPlayer"-->
-<!--          scope="prototype">-->
+    <!--    <bean id="musicPlayer"-->
+    <!--          class="org.liza.spring.MusicPlayer"-->
+    <!--          scope="prototype">-->
 
-<!--        <property name="music" ref="musicBean"/>-->
-<!--        &lt;!&ndash;        <property name="name" value="Some name"/>&ndash;&gt;-->
-<!--        &lt;!&ndash;        <property name="volume" value="50"/>&ndash;&gt;-->
-<!--        <property name="name" value="${musicPlayer.name}"/>-->
-<!--        <property name="volume" value="${musicPlayer.voluem}"/>-->
-<!--    </bean>-->
+    <!--        <property name="music" ref="musicBean"/>-->
+    <!--        &lt;!&ndash;        <property name="name" value="Some name"/>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <property name="volume" value="50"/>&ndash;&gt;-->
+    <!--        <property name="name" value="${musicPlayer.name}"/>-->
+    <!--        <property name="volume" value="${musicPlayer.voluem}"/>-->
+    <!--    </bean>-->
 
 </beans>
