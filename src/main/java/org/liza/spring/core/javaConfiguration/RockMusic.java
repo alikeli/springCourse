@@ -1,9 +1,8 @@
-package org.liza.spring.core;
+package org.liza.spring.core.javaConfiguration;
 
-import org.liza.spring.core.Music;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class RockMusic implements Music {
     @Override
     public String getSong() {

@@ -1,6 +1,5 @@
-package org.liza.spring.core;
+package org.liza.spring.core.javaConfiguration;
 
-import org.liza.spring.core.Computer;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
@@ -18,7 +17,7 @@ public class TestSpring {
 //        MusicPlayer musicPlayer1 = new MusicPlayer(music1);
 //        musicPlayer1.playMusic();
 
-//        MusicPlayer musicPlayer1 = co ntext.getBean("musicPlayer", MusicPlayer.class);
+//        MusicPlayer musicPlayer1 = context.getBean("musicPlayer", MusicPlayer.class);
 //        MusicPlayer musicPlayer2 = context.getBean("musicPlayer", MusicPlayer.class);
 //        boolean comparison = musicPlayer1 == musicPlayer2;
 //        System.out.println(comparison);

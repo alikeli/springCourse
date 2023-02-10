@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--        http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--        http://www.springframework.org/schema/context-->
+<!--        http://www.springframework.org/schema/context/spring-context.xsd">-->
 
-    <context:component-scan base-package="org.liza.spring"/>
+<!--    <context:component-scan base-package="org.liza.spring"/>-->
 
 
-    <context:property-placeholder location="classpath:musicPlayer.properties"/>
-<!--    <bean id="musicBean"-->
-<!--          class="org.liza.spring.core.ClassicalMusic"-->
-<!--          init-method="doMyInit"-->
-<!--          destroy-method="doMyDestroy"-->
-<!--          factory-method="getClassicalMusic">-->
-<!--    </bean>-->
-    <!--    <bean id="musicPlayer"-->
-    <!--          class="org.liza.spring.core.MusicPlayer"-->
-    <!--          scope="prototype">-->
+<!--    <context:property-placeholder location="classpath:musicPlayer.properties"/>-->
+<!--&lt;!&ndash;    <bean id="musicBean"&ndash;&gt;-->
+<!--&lt;!&ndash;          class="org.liza.spring.core.xmlConfiguration.ClassicalMusic"&ndash;&gt;-->
+<!--&lt;!&ndash;          init-method="doMyInit"&ndash;&gt;-->
+<!--&lt;!&ndash;          destroy-method="doMyDestroy"&ndash;&gt;-->
+<!--&lt;!&ndash;          factory-method="getClassicalMusic">&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
+<!--    &lt;!&ndash;    <bean id="musicPlayer"&ndash;&gt;-->
+<!--    &lt;!&ndash;          class="org.liza.spring.core.xmlConfiguration.MusicPlayer"&ndash;&gt;-->
+<!--    &lt;!&ndash;          scope="prototype">&ndash;&gt;-->
 
-    <!--        <property name="music" ref="musicBean"/>-->
-    <!--        &lt;!&ndash;        <property name="name" value="Some name"/>&ndash;&gt;-->
-    <!--        &lt;!&ndash;        <property name="volume" value="50"/>&ndash;&gt;-->
-    <!--        <property name="name" value="${musicPlayer.name}"/>-->
-    <!--        <property name="volume" value="${musicPlayer.voluem}"/>-->
-    <!--    </bean>-->
+<!--    &lt;!&ndash;        <property name="music" ref="musicBean"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        &lt;!&ndash;        <property name="name" value="Some name"/>&ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;        &lt;!&ndash;        <property name="volume" value="50"/>&ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;        <property name="name" value="${musicPlayer.name}"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <property name="volume" value="${musicPlayer.voluem}"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </bean>&ndash;&gt;-->
 
-</beans>
+<!--</beans>-->

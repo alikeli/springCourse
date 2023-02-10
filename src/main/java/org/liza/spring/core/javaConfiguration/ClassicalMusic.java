@@ -1,10 +1,9 @@
-package org.liza.spring.core;
+package org.liza.spring.core.javaConfiguration;
 
-import org.liza.spring.core.Music;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 //@Scope("singleton")
 @Scope("prototype")
 public class ClassicalMusic implements Music {
