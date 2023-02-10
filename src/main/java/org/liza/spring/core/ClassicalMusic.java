@@ -1,5 +1,6 @@
-package org.liza.spring;
+package org.liza.spring.core;
 
+import org.liza.spring.core.Music;
 import org.springframework.stereotype.Component;
 
 @Component

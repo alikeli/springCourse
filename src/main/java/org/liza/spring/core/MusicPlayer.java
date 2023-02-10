@@ -1,4 +1,4 @@
-package org.liza.spring;
+package org.liza.spring.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -24,9 +24,9 @@ public class MusicPlayer {
 //        this.music = music;
 //    }
 
-    public void playMusic() {
-        System.out.println("Playing : " + classicalMusic.getSong());
-        System.out.println("Playing : " + rockMusic.getSong());
+    public String  playMusic() {
+        return "Playing " +  classicalMusic.getSong();
+
     }
 
 }

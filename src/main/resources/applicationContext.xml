@@ -12,13 +12,13 @@
 
 <!--    <context:property-placeholder location="classpath:musicPlayer.properties"/>-->
 <!--    <bean id="musicBean"-->
-<!--          class="org.liza.spring.ClassicalMusic"-->
+<!--          class="org.liza.spring.core.ClassicalMusic"-->
 <!--          init-method="doMyInit"-->
 <!--          destroy-method="doMyDestroy"-->
 <!--          factory-method="getClassicalMusic">-->
 <!--    </bean>-->
     <!--    <bean id="musicPlayer"-->
-    <!--          class="org.liza.spring.MusicPlayer"-->
+    <!--          class="org.liza.spring.core.MusicPlayer"-->
     <!--          scope="prototype">-->
 
     <!--        <property name="music" ref="musicBean"/>-->

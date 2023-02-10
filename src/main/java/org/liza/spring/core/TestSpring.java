@@ -1,5 +1,6 @@
-package org.liza.spring;
+package org.liza.spring.core;
 
+import org.liza.spring.core.Computer;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
@@ -38,9 +39,12 @@ public class TestSpring {
 
 
 
-        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+     //   MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
 
-        musicPlayer.playMusic();
+     //   musicPlayer.playMusic();
+
+        Computer computer= context.getBean("computer", Computer.class);
+        System.out.println(computer);
         context.close();
     }
 }
